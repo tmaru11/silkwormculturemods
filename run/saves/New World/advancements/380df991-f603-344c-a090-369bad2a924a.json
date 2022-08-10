@@ -1,31 +1,19 @@
 {
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "sweet_berries": "2022-08-01 22:46:06 +0900"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2022-08-01 22:44:43 +0900"
-    },
-    "done": true
-  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-08-01 22:46:06 +0900"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2022-08-01 20:08:34 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2022-08-01 23:42:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-08-10 23:51:20 +0900"
     },
     "done": true
   },
@@ -40,6 +28,43 @@
       "minecraft:slime": "2022-08-01 20:08:34 +0900"
     },
     "done": false
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "sweet_berries": "2022-08-01 22:46:06 +0900",
+      "rotten_flesh": "2022-08-03 13:33:56 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2022-08-03 13:33:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2022-08-01 22:44:43 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-08-01 20:08:34 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2022-08-03 13:33:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2022-08-03 13:33:47 +0900"
+    },
+    "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {

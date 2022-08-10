@@ -1,5 +1,6 @@
 package th82128703tmaru.silkwormculturemod;
 
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -13,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import th82128703tmaru.silkwormculturemod.item.FoodItem;
 
 public class Registration {private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, "silkwormculturemod");
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "silkwormculturemod");
@@ -32,7 +34,10 @@ public class Registration {private static final DeferredRegister<Block> BLOCKS =
 
     public static final RegistryObject<Item> TESTBLOCK3_ITEM = fromBlock(TESTBLOCK3);
 
+    public static final RegistryObject<Item> TESTFOOD = ITEMS.register("testfood", () -> new FoodItem(ITEM_PROPERTIES.food(new FoodProperties.Builder().nutrition(1).saturationMod(0.2F).build())));
+
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));
+
     }}

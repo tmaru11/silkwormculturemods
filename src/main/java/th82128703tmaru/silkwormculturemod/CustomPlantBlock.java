@@ -28,7 +28,7 @@ public class CustomPlantBlock extends SweetBerryBushBlock {public CustomPlantBlo
             return InteractionResult.PASS;
         } else if (i > 1) {
             int j = 1 + world.random.nextInt(2);
-            popResource(world, position, new ItemStack(Items.DIAMOND_BLOCK, j + (flag ? 1 : 0)));
+            popResource(world, position, new ItemStack(Registration.TESTFOOD.get(), j + (flag ? 1 : 0)));
             world.playSound((Player) null, position, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 0.8F + world.random.nextFloat() * 0.4F);
             world.setBlock(position, blockstate.setValue(AGE, Integer.valueOf(1)), 2);
             return InteractionResult.sidedSuccess(world.isClientSide);

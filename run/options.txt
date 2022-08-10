@@ -39,7 +39,7 @@ renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:ja_jp
 soundDevice:
 chatVisibility:0
 chatOpacity:1.0

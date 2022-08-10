@@ -3,5 +3,7 @@
 
   "block.silkwormculturemod.testblock2_id": "mulberryblock",
 
-  "block.silkwormculturemod.testblock3": "mulberrymetal"
+  "block.silkwormculturemod.testblock3": "mulberrymetal",
+
+  "item.silkwormculturemod.testfood": "mulberry"
 }
