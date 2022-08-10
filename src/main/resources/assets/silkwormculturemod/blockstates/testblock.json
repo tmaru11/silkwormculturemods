@@ -1,11 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "silkwormculturemod:block/test3"
-    }
-  },
-{
-  "variants": {
     "age=0": {
       "model": "silkwormculturemod:block/test1"
     },
@@ -19,5 +13,4 @@
       "model": "silkwormculturemod:block/test5"
     }
   }
-}
 }

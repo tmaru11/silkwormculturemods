@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "all": "silkwormculturemod:block/kuwaage1"
+    "cross": "silkwormculturemod:block/kuwaage1"
   }
 }

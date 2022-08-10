@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/aross",
   "textures": {
-    "all": "silkwormculturemod:block/kuwaage0"
+    "cross": "silkwormculturemod:block/kuwaage0"
   }
 }
