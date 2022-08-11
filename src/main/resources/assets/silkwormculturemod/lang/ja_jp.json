@@ -1,9 +1,9 @@
 {
-  "block.silkwormculturemod.testblock": "桑の木",
+  "block.silkwormculturemod.testblock": "桑の実",
 
   "block.silkwormculturemod.testblock2_id": "桑ブロック",
 
   "block.silkwormculturemod.testblock3": "桑メタル",
 
-  "item.silkwormculturemod.testfood": "桑の実"
+  "item.silkwormculturemod.testfood": "桑"
 }
