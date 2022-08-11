@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/aross",
+  "parent": "minecraft:block/cross",
   "textures": {
     "cross": "silkwormculturemod:block/kuwaage0"
   }
