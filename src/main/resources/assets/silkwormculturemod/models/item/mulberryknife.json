@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "silkwormculturemod:item/mulberry"
+    "layer0": "silkwormculturemod:item/mulberry_knife"
   }
+
 }

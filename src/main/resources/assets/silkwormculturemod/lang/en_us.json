@@ -5,5 +5,7 @@
 
   "block.silkwormculturemod.testblock3": "mulberrymetal",
 
-  "item.silkwormculturemod.testfood": "mulberrya"
+  "item.silkwormculturemod.testfood": "mulberry",
+
+  "item.silkwormculturemod.mulberryknife": "mulberryknife"
 }
