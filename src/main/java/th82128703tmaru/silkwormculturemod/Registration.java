@@ -35,7 +35,7 @@ public class Registration {private static final DeferredRegister<Block> BLOCKS =
 
     public static final RegistryObject<Item> TESTBLOCK3_ITEM = fromBlock(TESTBLOCK3,ITEM_PROPERTIES);
 
-    public static final RegistryObject<Item> MULBERRYKNIFE = ITEMS.register("mulberryknife", () -> new Item(ITEM_PROPERTIES.);
+    public static final RegistryObject<Item> MULBERRYKNIFE = ITEMS.register("mulberryknife", () -> new Item(ITEM_PROPERTIES));
 
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block, Item.Properties prop) {
