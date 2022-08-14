@@ -23,6 +23,9 @@ public class Registration {private static final DeferredRegister<Block> BLOCKS =
         BLOCKS.register(bus);
         ITEMS.register(bus);}public static final BlockBehaviour.Properties BLOCK_PROPERTIES = BlockBehaviour.Properties.of(Material.GRASS).strength(1f).sound(SoundType.GRASS).requiresCorrectToolForDrops().destroyTime(0f).noCollission().noOcclusion();
 
+
+    public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.TAB);public static final RegistryObject<Item>
+
     public static final Item.Properties FOOD_PROPERTIES = new Item.Properties().tab(ModSetup.TAB);public static final RegistryObject<Block>
             TESTBLOCK = BLOCKS.register("testblock", () -> new CustomPlantBlock(BLOCK_PROPERTIES));
     public static final RegistryObject<Item> TESTBLOCK_ITEM = fromBlock(TESTBLOCK,FOOD_PROPERTIES=new Item.Properties().tab(ModSetup.TAB).food(new FoodProperties.Builder().nutrition(1).saturationMod(0.2F).build()));
@@ -32,8 +35,8 @@ public class Registration {private static final DeferredRegister<Block> BLOCKS =
     public static final RegistryObject<Item> TESTBLOCK2_ITEM = fromBlock(TESTBLOCK2,ITEM_PROPERTIES);
 
     public static final BlockBehaviour.Properties BLOCK_PROPERTIES3 = BlockBehaviour.Properties.of(Material.METAL).strength(3f).sound(SoundType.METAL).destroyTime(3f).noOcclusion().requiresCorrectToolForDrops();
+    public static final RegistryObject<Item> TESTBLOCK3_ITEM = fromBlock(TESTBLOCK3,ITEM_PROPERTIES=new Item.Properties().tab(ModSetup.TAB).item);
     public static final RegistryObject<Block> TESTBLOCK3 = BLOCKS.register("testblock3", () -> new Block(BLOCK_PROPERTIES3));
-    public static final RegistryObject<Item> TESTBLOCK3_ITEM = fromBlock(TESTBLOCK3,ITEM_PROPERTIES);
 
 
     public static final RegistryObject<Item> MULBERRYKNIFE = ITEMS.register("mulberryknife", () -> new Item(ITEM_PROPERTIES));
